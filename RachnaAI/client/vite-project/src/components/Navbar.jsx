@@ -35,7 +35,7 @@ const Navbar = () => {
         :
         <div className='flex items-center gap-2 sm:gap-5'>
           <p onClick={()=>navigate('/buy')} className='cursor-pointer'>Pricing</p>
-        <p onClick={()=>navigate('/Image to Text')} className='cursor-pointer'>Image to Text</p>
+        <p onClick={()=>navigate('/ImageToText')} className='cursor-pointer'>Image to Text</p>
           <p onClick={()=>navigate('/Logos')} className='cursor-pointer'>Logos</p>
           <p onClick={()=>navigate('/history')} className='cursor-pointer'>History</p>
           <button onClick={()=>setShowLogin(true)}className='bg-zinc-800 text-white px-7 py-2 sm:px-10 text-sm rounded-full'>Login</button>
