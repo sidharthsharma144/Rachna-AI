@@ -8,6 +8,11 @@ import imageRouter from './routes/imageRoutes.js'
 const PORT= process.env.PORT||10000
 const app= express()
 
+app.use(cors({
+  origin: 'https://rachna-ai-6v3z.vercel.app/',
+  credentials: true
+}));
+
 
 app.use(express.json())
 app.use(cors())
